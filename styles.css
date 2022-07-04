@@ -1,0 +1,98 @@
+* {
+    font-family: 'Nunito', sans-serif;
+}
+
+body {
+    margin: 0px;
+}
+
+.button-image {
+    width: 30%;
+    height: 30%;
+    transition: all .3s ease-in-out;
+    border-radius: 5%;
+    filter: drop-shadow(0 0 0.75rem black) brightness(100%);
+}
+
+.button-image:hover {
+    filter: drop-shadow(0 0 0.75rem black) brightness(40%);
+}
+
+.header {
+    height: 150px;
+    max-height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cookie-banner {
+    background-image: url(./images/cookies-landscape.jpg);
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 400px;
+}
+
+.recipe-title-container {
+    width: 30%;
+    height: 50%;
+    background-color: rgb(255, 255, 255, 0.60);
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(5px);
+}
+
+.recipe-images {
+    width: 100%;
+    border: 5px black;
+}
+
+.left-align {
+    width: 30%;
+    float: left;
+}
+
+.right-align {
+    width: 70%;
+    height: 90vh;
+    float: right;
+    background-color: white;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    width: 60%;
+}
+
+.content-box {
+    width: 90%;
+    height: 90%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(5px);
+    filter: drop-shadow(0 0 0.75rem black);
+}
+
+.content-box-text-box {
+    width: 80%;
+    height: 80%;
+}
+
+.body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
