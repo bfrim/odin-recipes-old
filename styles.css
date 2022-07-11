@@ -13,8 +13,8 @@ a {
 }
 
 .button-image {
-    width: 25vw;
-    height: 25vw;
+    width: 400px;
+    height: 400px;
     border-radius: 100%;
     filter: drop-shadow(0 .5vw 1vw rgba(0, 0, 0, 0.774));
 }
@@ -59,28 +59,67 @@ a {
 }
 
 .image-title {
-    font-size: 2vw;
+    font-size: 30px;
     font-weight: bold;
 }
 
 .heading {
-    height: 3vw;
-    background-color: #373A36;
-    color: white;
-    font-size: .8vw;
+    height: 50px;
+    background-color: #000000;
+    color: rgb(221, 221, 221);
+    font-size: 12px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .column {
-    padding-top: 8vw;
-    padding-left: 2vw;
-    padding-right: 2vw;
+    padding-top: 180px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 .row {
     display: flex;
     flex-direction: row;
     justify-content: center;
+}
+
+@media (max-width: 1100px) {
+    .row {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .heading {
+        height: 150px;
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 1500px) {
+    .button-image {
+        width: 350px;
+        height: 350px;
+    }
+
+    .image-title {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 1300px) {
+    .button-image {
+        width: 250px;
+        height: 250px;
+    }
+
+    .image-title {
+        font-size: 20px;
+    }
+
+    .heading {
+        height: 75px;
+        font-size: 20px;
+    }
 }
